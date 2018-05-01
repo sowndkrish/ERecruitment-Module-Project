@@ -1,0 +1,31 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="unithead.master.cs" Inherits="WebApplication1.test" %>
+
+
+<asp:Content ID="Content1" ContentPlaceHolderID="Content1" runat="server">
+
+    <link rel="stylesheet" href="BrightSide.css" type="text/css" />
+<div id="wrap">
+  
+
+ 
+    <div id="sidebar" >
+      <h1>Quick Links</h1>
+      <ul class="sidemenu">
+<li><a href="EditBGC.aspx">Approve BGC Test Administrator</a></li>
+      </ul>
+      
+    </div>
+    <div id="main"> 
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server"></asp:ContentPlaceHolder>
+  </div>
+
+    </div>
+
+
+
+
+           
+</asp:Content>
+      
+
+

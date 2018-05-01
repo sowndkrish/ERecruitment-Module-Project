@@ -1,0 +1,44 @@
+/** Customize demo canvas */
+#example .demo-container{
+    margin: 0 auto;
+    padding: 150px 120px 60px 40px;
+    width: 570px;
+    height: 250px;
+    background: transparent url("Images/background.png") 0 0 no-repeat;
+    font-size: 12px;
+    position: relative;
+}
+ 
+    /** Order summary */
+    .demo-container .order-summary {
+        padding: 110px 50px 50px 60px;
+        width: 270px;
+        height: 150px;
+        background: transparent url("images/background_details.png") 0 0 no-repeat;
+        position: absolute;
+        left: 300px;
+        top: 150px;
+    }
+ 
+        .demo-container .order-summary dl {
+            color: #ffffff;
+        }
+        .demo-container .order-summary dt {
+            margin: 0;
+            padding: 0;
+            text-transform: uppercase;
+            font-weight:bold;
+        }
+        .demo-container .order-summary dd {
+            margin: 0 0 20px 0;
+            padding: 0;
+        }
+ 
+        .demo-container .order-summary dt.price {
+            display: inline;
+        }
+        .demo-container .order-summary dd.price {
+            margin: 0;
+            font-size: 30px;
+            display: inline;
+        }

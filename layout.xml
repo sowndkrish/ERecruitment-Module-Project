@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<template xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <layout>
+    <placeholder id="placeholder_2">
+      <layoutid>layout33x67</layoutid>
+      <layoutwidget>
+        <column width="33">
+          <widget>
+            <type>navigation</type>
+            <sfID>placeholder_2_widget_0</sfID>
+            <properties>
+              <navigationtype>verticalcontrol</navigationtype>
+            </properties>
+            <cssclass>Magazine</cssclass>
+          </widget>
+        </column>
+        <column width="67">
+          <widget>
+            <sfID>placeholder_2_widget_1</sfID>
+          </widget>
+        </column>
+        <custom>true</custom>
+        <backgroundcolor>#dc9999</backgroundcolor>
+        <backgroundimageurl>ttp://templatebuilder.sitefinity.com/sessions/zrg2qa0lyfzoifm4h4dh2izn/backgrounds_bgc2.jp</backgroundimageurl>
+        <backgroundimage>backgrounds_bgc2.jp</backgroundimage>
+        <background_position>50% 50%</background_position>
+        <background_repeat>repeat</background_repeat>
+        <background_attachment>scroll</background_attachment>
+      </layoutwidget>
+    </placeholder>
+  </layout>
+  <metadata>
+    <meta id="title">
+      <value>bgc1</value>
+    </meta>
+    <meta id="author">
+      <value>No author</value>
+    </meta>
+    <meta id="version">
+      <value>v1</value>
+    </meta>
+    <meta id="description">
+      <value>No description</value>
+    </meta>
+  </metadata>
+</template>
